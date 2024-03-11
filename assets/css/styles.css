@@ -488,3 +488,8 @@ img {
     width: 450px;
   }
 }
+
+.icons {
+  width: 20px;
+  margin-right: 10%;
+}
