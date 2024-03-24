@@ -301,7 +301,7 @@ img {
   width: 85%;
 }
 .skills__js {
-  width: 65%;
+  width: 85%;
 }
 .skills__ux {
   width: 85%;
@@ -498,10 +498,49 @@ img {
   margin-bottom: 10px;
 }
 
-.contact__button {
-  
+.test {
+  display: grid;
+  grid-template-rows: 1fr;
+  align-content: center;
+  margin: auto;
 }
 
 .break {
   margin-bottom: 3px;
+}
+
+.contact {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  align-items: center;
+}
+
+
+.contact__container{
+  display: flex;
+}
+
+
+.button1 {
+  background-color:var(--first-color)
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.button1:hover {
+  background-color:hsl(var(--hue-color), 89%, 60%) /* Change hover color as desired */
+}
+
+.newtext{ 
+  margin-bottom: 10px;
 }
